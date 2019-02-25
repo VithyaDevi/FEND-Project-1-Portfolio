@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Vithya's Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Concert+One" rel="stylesheet">
+    <script src="js/script.js"></script>
+    <!-- <script src="main.js"></script>-->
+</head>
+<body class="main-body">
+    <!-- Header -->
+    <header class="header">
+            <div class="header-logo">
+                <img src="images/desktop.png" width="100" height="100" alt="Vithya logo" class="header-img responsive-img"/>
+            </div>
+            <div class="header-title">
+                <h1 class="text-hdr">VITHYA DEVI</h1>
+                <p class="text-item">FULL STACK DEVELOPER</p>
+            </div>
+        </header>
+
+        <!-- Navigation bar -->
+        <nav class="navigation-bar text-hdr" id="nav">
+                <a href="#">Home</a>
+                <a href="javascript:void(0)" id="contact" onclick="myContact()">Contact</a>
+                <!-- <a href="javascript:void(0)" id="linkedin" onclick="myLinkedin()">Linkedin</a> -->
+                <a href="#">Details</a>
+                <a href="#">Resume</a>
+
+        </nav>
+
+        <p id="contact-desc"></p>
+        
+    <main class="main-content" id="main-cont">
+        <!-- for hero image -->
+        <img srcset="images/MainImage.jpg 480w, images/MainImage.jpg 960w, images/MainImage.jpg 1920w" sizes="100vw"
+        src="images/MainImage.jpg"  alt="Hero image" class="hero-image responsive-img"/>
+
+        <!-- About me section -->
+        <div>
+                <h1 class="about-hdr text-hdr">About me</h1>
+                <p class="featured-desc about-desc">
+                    Hello! It's Vithya. Welcome to my Portfolio. I am a C# .NET developer back in India and recently moved to Toronto. My areas of interest 
+                    are Front-End Development and Full Stack development. I am very interested to start a career in DevOps and currenty improving my skills in that area.
+                    Thanks for your time and have a great day!. 
+                </p>
+            </div>
+        <!-- featured work section -->
+        <section class="featured-work">
+            <h2 class="content-hdr text-hdr">My Profile</h2>
+            
+            <!-- Flexbox for 3 features -->
+        <div class="featured">
+
+            <!-- 1st feature -->
+            <div class="featured-item">
+                <img src="images/sd.png" width="480" height="150" alt="Featured item 1" class="featured-img responsive-img"/>
+                <h3 class="featured-hdr text-hdr">.NET Developer</h3>
+                <p class="featured-desc">
+                    <a href="https://www.linkedin.com/in/vithya-devi-v-3406b7161" class="featured-link">Linkedin</a>
+                </p>
+            </div>
+
+
+            <!-- 2nd feature -->
+            <div class="featured-item">
+                    <img src="images/college.jpg" width="480" height="150" alt="Featured item 2" class="featured-img responsive-img"/>
+                    <h3 class="featured-hdr text-hdr">Bachelor of Technology</h3>
+                    <p class="featured-desc">Information Technology
+                        <a href="" class="featured-link">http://www.vithya.com</a>
+                    </p>
+            </div>
+
+
+            <!-- 3rd feature -->
+            <div class="featured-item">
+                    <img src="images/project.png" width="480" height="150" alt="Featured item 3" class="featured-img responsive-img"/>
+                    <h3 class="featured-hdr text-hdr">Projects</h3>
+                    <p class="featured-desc">Link to
+                        <a href="https://github.com/VithyaDevi" class="featured-link">GitHub</a>
+                    </p>
+            </div>
+
+            <!-- 4th feature -->
+            <!-- <div class="featured-item">
+                    <img src="images/hobbies.jpg" width="480" height="130" alt="Featured item 4" class="featured-img responsive-img"/>
+                    <h3 class="featured-hdr text-hdr">Hobbies</h3>
+                    <p class="featured-desc"> Cooking &<br> Zumba</p>
+            </div> -->
+        </div>
+        </section>
+    </main>
+</body>
+</html>
